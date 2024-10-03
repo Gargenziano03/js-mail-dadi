@@ -10,6 +10,9 @@ stampa un messaggio appropriato sull’esito del controllo.
 -- if, else if, else
 */
 
+
+//EXSERCISE: MAIL 
+
 // fase 1: PREPARAZIONE
 let mail;
 
