@@ -14,14 +14,30 @@ stampa un messaggio appropriato sull’esito del controllo.
 //EXSERCISE: MAIL 
 
 // fase 1: PREPARAZIONE
+// variabile mail
 let mail;
 
-// fase 2:RACCOLTA DATI
+// fase 2: RACCOLTA DATI
+// arrey contenete l'email degli utenti
 let list = [
     'antonio@gmail.com',
     'luigi@gmail.com',
     'andrea@hotmail.com'
 ];
+// richiesta al utenye di inserire una mail
 mail = prompt('inserisci la tu mail:');
+// stampa mail in console
 console.log(mail);
+
+//fase 3: ELABORAZIONE DATI
+// controlla se nella list è presenta la mail inserita
+if(list.includes(mail)){
+// se è presente stampa accesso consentiti
+    console.log('accesso consentito');
+// altrimenti stampa accesso negato
+}else{
+    console.log('accesso negato');
+}
+
+
     
