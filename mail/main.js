@@ -39,5 +39,4 @@ if(list.includes(mail)){
     console.log('accesso negato');
 }
 
-
     
