@@ -22,18 +22,21 @@ const computer = Math.floor(Math.random() * 7);
 // se il giocatore ha il numero più alto
 if(giocatore > computer){
 // stampa messaggio
+    alert('il vincitore è l utente')
     console.log('il vincitore è l utente')
 // stampa il numero del giocatore 
     console.log(giocatore)
 // se il computer ha il numero più alto
 }else if(giocatore < computer){
 // stampa il messaggio
+    alert('il vincitore è il computer')
     console.log('il vincitore è il computer');
 // stampa il numero del computer
     console.log(computer);
 // altrimenti in caso i due numeri siano uguali
 }else{
 // stampa il messaggio
+    alert('pareggio')
     console.log('pareggio')
 }
 
