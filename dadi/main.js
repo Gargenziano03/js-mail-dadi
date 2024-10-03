@@ -32,10 +32,10 @@ if(giocatore > computer){
 // stampa il numero del computer
     console.log(computer);
 // altrimenti in caso i due numeri siano uguali
-}else(
+}else{
 // stampa il messaggio
     console.log('pareggio')
-)
+}
 
 
 
